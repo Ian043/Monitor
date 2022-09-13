@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.i {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: red;
+}
+
+
+
+body {
+margin: 0px;
+// background-image: url("https://i.pinimg.com/736x/8f/ba/72/8fba72687cfe53e0b56ba06eee62463f.jpg");
+background: linear-gradient(-190deg, #2E55F5, #28C2F8);
+// background: #fff;
+background-size: 100%;
+overflow: hidden;
+}
+
+.container {
+width: 100vw;
+height: 80vh;
+// background: linear-gradient(-45deg, blue, black);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.box {
+width: 100%;
+height: 100%;
+// background: #fff;
+border-radius: 20px;
+align-items: center;
+margin-left: 13%;
+margin-right: 10%;
+margin-top: 10%;
+
+
+  white-space: nowrap;
+overflow-y: hidden;
+}
+
+img{
+width: 200px;
+height: 200px;
+box-shadow: 0px 0px 15px black;
+margin-right: 50px;
+border: solid 1px black;
+margin: 30px;
+display: inline-block;
+}
+
+.nfe:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+cursor: zoom-in;
+}
+
+.nfce:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+        cursor: zoom-in;
+}
+
+.cte:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+cursor: zoom-in;
+}
+
+.mdfe:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+        cursor: zoom-in;
+}
+
+.nfse:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+        cursor: zoom-in;
+}
+
+
+
